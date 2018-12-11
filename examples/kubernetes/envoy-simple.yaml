@@ -21,6 +21,6 @@ spec:
         - name: ENVOY_XDS_PORT
           value: "50000"
         - name: ENVOY_NODE_ZONE
-          value: testbed
+          value: default-zone
         - name: ENVOY_NODE_CLUSTER
-          value: testbed-proxy
+          value: default-cluster
