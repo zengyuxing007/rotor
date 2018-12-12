@@ -480,3 +480,7 @@ for how to get started.
 All Turbine Labs open-sourced projects are released with a
 [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in our
 projects you agree to abide by its terms, which will be carefully enforced.
+
+
+## 指定启动端口
+/usr/local/bin/rotor  --xds.standalone-port=15001 "${ROTOR_CMD}" 
